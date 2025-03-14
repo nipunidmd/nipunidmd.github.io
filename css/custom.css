@@ -1,1 +1,44 @@
 /* Add here all your CSS customizations */
+.project-tech-stack {
+    font-size: 14px;
+    color: #333;
+}
+
+.project-tech-stack ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.project-tech-stack li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.project-tech-stack i {
+    font-size: 16px;
+}
+
+/* Highlight Ecommerce Websites */
+.ecommerce-highlight .thumb-info {
+    background-color: #82b9d9; /* Light blue background */
+    border-radius: 5px;
+}
+
+.ecommerce-highlight .thumb-info .thumb-info-type{
+    background-color: #82b9d9;
+}
+
+.ecommerce-highlight .btn-primary {
+    background-color: #82b9d9; /* Light blue button */
+    border-color: #82b9d9;
+}
+
+.ecommerce-highlight .btn-primary:hover {
+    background-color: #82b9d9; /* Slightly lighter blue on hover */
+    border-color: #82b9d9;
+}
+
+.ecommerce-highlight .custom-thumb-info-1 .thumb-info-wrapper:after {
+    background: #82b9d9;
+}
